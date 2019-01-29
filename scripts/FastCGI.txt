@@ -1,0 +1,2 @@
+set config -section:system.webServer/fastCgi /[fullPath='<path to php-cgi.exe>'].activityTimeout:<sec>
+set config -section:system.webServer/fastCgi /[fullPath='C:/PHP/php-cgi.exe'].activityTimeout:10000

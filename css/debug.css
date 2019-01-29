@@ -1,0 +1,17 @@
+input {
+    width: 300px;
+}
+
+.left_side {
+    min-height: 200px;
+    width: 65%;
+    float: left;
+}
+
+.right_side {
+    border-left: 1px solid gray;
+    float: left;
+    min-height: 200px;
+    width: 34%;
+    padding-left: 10px;
+}

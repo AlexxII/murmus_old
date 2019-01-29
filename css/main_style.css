@@ -1,0 +1,158 @@
+html {
+/*    font-family: Georgia, Helvetica, Sans-serif; */
+    font-family: Verdana;
+    font-size: 14px;
+    min-height: 100%;
+    height: 1px;
+}
+
+body {
+    width: 100%;
+    margin: auto;
+    background: #f9fafc;           /*e5e5e5; */
+}
+
+.overlay {
+    background-color: #f9fafc;             /*e5e5e5; */
+    position: fixed;                /* фиксим и далее растягиваем на весь экран*/
+    top: 0px;
+    left: 0px;
+    z-index: 100;
+    width: 100%;
+    height: 100%;
+}
+
+
+.t_menu {
+    background: #f9fafc;
+    min-height: 0px;
+}
+
+.top_bar {
+    background: #f9fafc;       /*5f5f5f; */
+    border-bottom: solid 1px #dedede;
+    min-height: 50px;
+    margin: auto;
+    width: 100%;
+}
+
+.main_wrap {
+    width: 80%;
+    margin-left: 9%;
+}
+
+.footer {
+    min-height: 100px;
+}
+
+.side_bar {
+    width: 10%;
+    float: left;
+}
+
+.right_side {
+    width: 100%;
+    background: #f9fafc;           /* e5e5e5; */
+    float: right;
+}
+
+.left_news_wrap {
+    width: 100%;
+    background: #f9fafc;
+    float: left;
+}
+
+.right_news_wrap {
+    background: #f9fafc;
+    float: right;
+    overflow-x: hidden;
+}
+
+.news_block {
+    margin-top: 20px;
+    background: #f5f5f0;
+    width: 100%;
+    border: solid 1px #dedede;
+    box-shadow: 5px 5px 5px rgba(0,0,0,.3);
+}
+
+.right_news_wrap .news_block {
+    margin-left: 0px;
+    width: 90%;
+    margin-bottom: 10px;
+}
+
+.news_info_block {
+    width:100%;
+    background: #f5f5f0;
+}
+
+.news_service_block {
+    width:48%;
+    background: #f5f5f0;
+    float: left;
+    padding: 1%;
+    color: #a8a8a8;
+}
+
+.news_city_block {
+    width:48%;
+    background: #f5f5f0;
+    float: right;
+    padding: 1%;
+    word-wrap: break-word;
+    display: inline;
+}
+
+.news_content {
+    width: 98%;
+    background: #d3d3d3;
+    clear: both;
+    max-height: 60px;
+    overflow: hidden;
+    padding: 1%;
+    padding-top: 1px;
+}
+
+.news_city_block .city {
+    background: #777620;
+    font-size: 17px;
+    max-width: 110px;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+    margin: 2px;
+    padding: 5px;
+}
+
+
+.back {
+    display: none;
+}
+
+.left {
+    width: 96%;
+    float: left;
+    overflow-x: hidden;
+}
+.trash {
+    width: 4%;
+    min-height: 1px ;
+}
+
+.city_select {
+    margin-left: 2px;
+    margin-top: 2px;
+}
+
+
+.news_service_block a {
+    text-decoration: none;
+    float: right;
+    color: #939393;
+}
+
+.ltle_header {
+    min-height: 30px;
+}
